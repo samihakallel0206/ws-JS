@@ -1,77 +1,77 @@
-// alert("Votre formulaire est bien enregistré!");
+// alert("Bonjour JS!");
 // ***************!Logging output & Console
-// // alert("Hello World"); // Do not use for debugging. Stops the script!
+//  alert("Hello World"); // Do not use for debugging. Stops the script!
 // console.log("bonjour je suis la ");
 // console.error("This is an error");
-// console.warn('This is a warning')
-// console.log(prompt('age'))
+// console.warn("This is a warning");
+// console.log(prompt("age"));
 
 //***********************!-Variable
 
-// var name = 'student'
-// console.log(name)
-// var name = 'instructor'
-// console.log(name)
+// var name = "student";
+// console.log(name);
+// var name = "instructor";
+// console.log(name);
 
-// const name = 'someone'
-// const age = 99
-// console.log(age)
-// // var can be re-assigned, const can not
-// // name = 'someone2'
-// age = 100
-// console.log(age)
+// const name = "someone";
+// const age = 99;
+// console.log(age);
+// var can be re-assigned, const can not
+// name = "someone2";
+// age = 100;
+// console.log(age);
 
 //*****************************************!Data types
 
-// var name = "1"
-// console.log(typeof name)
-// var age = 26
-// console.log(typeof age)
-// var tallness = 1.75
-// console.log(typeof tallness)
-// // // console.log(typeof(tallness))
-// var isPerson = false
-// console.log(typeof isPerson)
-// var x = null
-// console.log(typeof x)
-// var z
-// console.log(typeof z)
+// var name = "a";
+// console.log(typeof name);
+// var age = 260;
+// console.log(typeof age);
+// var tallness = 1.75;
+// console.log(typeof tallness);
+
+// var isPerson = false;
+// console.log(typeof isPerson);
+// var x = null;
+// console.log(typeof x);
+// var z;
+// console.log(typeof z);
 
 //**************************!Arthmetic Operators
 // + , - , * , / , % , ++ , -- , **
 
-// console.log(13 - 2)
-// console.log('3' * '2')
-// console.log(typeof '3')
-// console.log(3 * 'TEXT')
-// console.log('10' / '2')
-// console.log(10 % 2)
-// console.log(10 % 3)
-// console.log('3' ** '2') //puissqnce
+// console.log(13 - 2);
+// console.log("3" * "2");
+// console.log(typeof "3");
+// console.log(3 * "TEXT");
+// console.log("10" / "2");
+// console.log(10 % 2);
+// console.log(10 % 3);
+// console.log("3" ** "2"); //puissance
 
-// console.log(5 + 3)
-// console.log(5 + 'a') //concatenation
+// console.log(5 + 3);
+// console.log(5 + "a"); //concatenation
 
-// var y = 5
-// console.log(++y)
+// var y = 5;
+// console.log(++y);
 // console.log(y)
-// console.log(y++)
-// console.log(y)
-// var z
-// z = ++y
-// console.log(z)
-// console.log(y)
+// console.log(y++);
+// console.log(y);
+// var z;
+// z = ++y;
+// console.log(z);
+// console.log(y);
 
 //******************!Comparaison operators
-// = assigns a value to a variable*
+// = affectation d'une vvaleur à une variable
 
-// == compares the value of the variables
+// == comparer les valeur des variables
 
-// === compares the value and type of the variables
+// === comparer valeurs et types variables
 
-// / ! returns the opposite boolean
+// / ! le contraire (opposite)
 
-// /!= compares the inequality based on value
+// /!= comparer l'inégalité des valeurs
 
 // /!== compares the inequality based on value and type
 
@@ -93,16 +93,16 @@
 //****************************!Truthy & Falsy
 // false, undefined, null, 0, "", NaN
 
-// var test=null;
-// var title = ''
-// var y
-// console.log(typeof y)
-// var a = 0
+// var test = null;
+// var title = "";
+// var y;
+// console.log(typeof y);
+// var a = 0;
 // console.log(test);
-// console.log(Boolean(test))
-// console.log(Boolean(title))
-// console.log(Boolean(y))
-// console.log(Boolean(a))
+// console.log(Boolean(test));
+// console.log(Boolean(title));
+// console.log(Boolean(y));
+// console.log(Boolean(a));
 // if (test) {
 //   console.log('okay')
 // } else {
@@ -113,27 +113,28 @@
 // ********** X && Y :and
 // Returns first value if falsy
 // console.log(null && 5);
-// console.log(5 && 1)
+// console.log(5 && 1);
 
 // ********** X || Y :OR
 // Returns first value if truthy
-// console.log(1 || 0)
+// console.log(1 || 0);
 
 //***************!String concatenation
 // var name = "hamza";
 // var age = 20;
 
 // Archaic method
-// console.log("My name is " + name + "\n" + "and I am" + age);
+// console.log("My name is " + name + "\n" + "and I am " + age);
 // Template literal (use this one!)
 // console.log(`My name is ${name}
-//     and I am ${2 + 3}`);
+//     and I am
+//      ${2 + 3}`);
 
 //Special Characters (\, \', \n, \\)
 
-// console.log("je m'appelle sam")
+// console.log("je m'appelle sam");
 
-//****** String methods & properties **** */
+//******!String methods & properties **** */
 // var s = "Hello World";
 // var val;
 // console.log(val);
